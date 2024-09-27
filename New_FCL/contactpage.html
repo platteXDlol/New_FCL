@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homepage</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contactpage_Style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <a href="index.html">
+                    <img
+                        class="logo"
+                        src="Bilder/Logos/FC_Luzern_Logo.svg.png"
+                        alt="Logo FCL"
+                    />
+                </a>
+                <div class="headerkategorien">
+                    <a class="Link" id="home" href="index.html">Home</a>
+                    <a class="Link" id="Matchday" href="matchday.html"
+                        >Matchday</a
+                    >
+                    <a class="Link" id="Kontakt" href="contactpage.html"
+                        >Kontakt</a
+                    >
+                    <a class="Link" id="Shop" href="spieler.html">Spieler</a>
+                </div>
+            </header>
+            <main>
+                <form action="https://formlog.offline.ch/log" method="POST">
+                    <div class="container-contact">
+                        <div class="email-field">
+                            <label for="email">E-mail</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@gmail.com"
+                                required
+                            />
+                        </div>
+                        <div class="name-field">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Max Muster"
+                                required
+                            />
+                        </div>
+                        <div class="geschlecht-field">
+                            <label for="geschlecht">Geschlecht:</label>
+                            <select id="geschlecht" name="geschlecht" required>
+                                <option></option>
+                                <option value="männlich">Mann</option>
+                                <option value="weiblich">Frau</option>
+                                <option value="different">Anderes</option>
+                            </select>
+                        </div>
+                        <div class="betreff-field">
+                            <label for="betreff">Betreff:</label>
+                            <input
+                                type="text"
+                                id="betreff"
+                                name="betreff"
+                                placeholder="Betreff"
+                            />
+                        </div>
+                        <div class="contact-field">
+                            <label for="contact">Nehmen Sie Kontakt auf</label>
+                            <textarea
+                                id="contact"
+                                name="contact"
+                                placeholder="Text..."
+                                style="height: 200px"
+                                required
+                            ></textarea>
+                        </div>
+                        <div class="checkboxes">
+                            <input
+                                type="checkbox"
+                                id="c1"
+                                name="user-terms"
+                                value="yes"
+                                required
+                            />
+                            <label for="c1"
+                                >Ich aktzeptiere die
+                                <a
+                                    id="user-terms"
+                                    class="user-terms"
+                                    href="userterms.html"
+                                    target="_blank"
+                                    >Nutzungsbedinungen</a
+                                ></label
+                            >
+
+                            <input
+                                type="checkbox"
+                                id="c2"
+                                name="newsletter"
+                                value="newsletter"
+                            />
+                            <label for="c2"
+                                >Ich möchte den kostenlosen Newsletter
+                                abonieren</label
+                            >
+                        </div>
+
+                        <button
+                            class="submit-button"
+                            type="submit"
+                            name="form-submit"
+                        >
+                            Einreichen
+                        </button>
+                    </div>
+                </form>
+            </main>
+
+            <footer>
+              <div class="sponsoren">
+                  <a href="index.html">
+                      <img
+                          class="logo"
+                          alt="ottos Logo"
+                          src="Bilder\Logos\FC_Luzern_Logo.svg.png"
+                  /></a>
+                  <a href="https://www.ottos.ch/de/" target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="ottos"
+                          alt="ottos Logo"
+                          src="Bilder\Sponsoren\Logo_Otto's.svg.png"
+                  /></a>
+                  <a href="https://www.lukb.ch/private" target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="lukb"
+                          alt="Logo LUKB"
+                          src="Bilder\Sponsoren\Logo_der_Luzerner_Kantonalbank.svg.png"
+                  /></a>
+                  <a href="https://marechaux.ch/" target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="marcheaux"
+                          alt="Logo marcheaux"
+                          src="Bilder\Sponsoren\partner-marechaux_ch.png"
+                  /></a>
+                  <a href="https://www.grandcasinoluzern.ch/" target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="casino"
+                          alt="Logo Casino Luzern"
+                          src="Bilder\Sponsoren\casino.png"
+                  /></a>
+                  <a href="https://www.eichhof.ch/" target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="eichhof"
+                          alt="Logo Eichhof"
+                          src="Bilder\Sponsoren\images.png"
+                  /></a>
+                  <a href="https://www.migros.ch/de" target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="migros"
+                          alt="Logo Migros"
+                          src="Bilder\Sponsoren\images (1).png"
+                  /></a>
+                  <a
+                      href="https://www.swisspor.com/ch-de?redirect=true"
+                      target="_blank"
+                      ><img
+                          class="sponsor"
+                          id="swisspor"
+                          alt="Logo swisspor arena"
+                          src="Bilder\Sponsoren\images (2).png"
+                  /></a>
+                  <a href="contactpage.html"
+                      ><img
+                          class="kontakt"
+                          alt="Kontakt aufnehemn"
+                          src="Bilder\Sonstiges\3176322.png"
+                  /></a>
+              </div>
+          </footer>
+
+            <nav>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/alle-news/"
+                        target="_blank"
+                        >News</a
+                    >
+                </div>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/teams/"
+                        target="_blank"
+                        >Teams</a
+                    >
+                </div>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/tickets-uebersicht/"
+                        target="_blank"
+                        >Tickets</a
+                    >
+                </div>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/stadion/uebersicht/"
+                        target="_blank"
+                        >Stadion</a
+                    >
+                </div>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/club/uebersicht/"
+                        target="_blank"
+                        >Club</a
+                    >
+                </div>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/fans/uebersicht/"
+                        target="_blank"
+                        >Fans</a
+                    >
+                </div>
+                <div>
+                    <a
+                        class="Link1"
+                        href="https://fcl.ch/business/uebersicht/"
+                        target="_blank"
+                        >Business</a
+                    >
+                </div>
+            </nav>
+        </div>
+    </body>
+</html>

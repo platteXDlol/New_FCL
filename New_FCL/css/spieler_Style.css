@@ -1,0 +1,312 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+.spielerliste {
+    font-size: xx-large;
+    text-align: center;
+}
+.container7 {
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 500px;
+    width: fit-content;
+    margin: auto;
+}
+
+.loretzA {
+    
+    display: inline-flex;
+    width: 450px;
+}
+.loretzB {
+    width: 200px;
+    height: auto;
+}
+.loretzT{
+    margin-top: 50px;
+}
+.bockA {
+    
+    display: inline-flex;
+    width: 450px;
+}
+.bockB {
+    width: 200px;
+    height: auto;
+}
+.bockT{
+    margin-top: 50px;
+}
+.vasicA {
+    
+    display: inline-flex;
+    width: 450px;
+}
+.vasicB {
+    width: 216px;
+    height: auto;
+}
+.vasicT{
+    margin-top: 50px;
+}
+.ottigerA {
+    
+    display: inline-flex;
+    width: 450px;
+}
+.ottigerB {
+    width: 197px;
+    height: auto;
+}
+.ottigerT{
+    margin-top: 50px;
+}
+.löfgrenA {
+    
+    display: inline-flex;
+    width: 450px;
+}
+.löfgrenB {
+    width: 200px;
+    height: auto;
+}
+.löfgrenT {
+    margin-top: 50px;
+}
+
+.jaquezA {
+    
+    display: inline-flex;
+    width: 450px;
+}
+
+.jaquezB {
+    width: 200px;
+    height: auto;
+}
+.jaquezT {
+    margin-top: 50px;
+}
+
+.knezevicA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.knezevicB {
+    width: 200px;
+    height: auto;
+}
+.knezevicT {
+    margin-top: 50px;
+}
+.ciganiksA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.ciganiksB {
+    width: 200px;
+    height: auto;
+}
+.ciganiksT {
+    margin-top: 50px;
+}
+.ulrichA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.ulrichB {
+    width: 200px;
+    height: auto;
+}
+.ulrichT {
+    margin-top: 50px;
+}
+.bekaA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.bekaB {
+    width: 200px;
+    height: auto;
+}
+.bekaT {
+    margin-top: 50px;
+}
+.freimannA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.freimannB {
+    width: 200px;
+    height: auto;
+}
+.freimannT {
+    margin-top: 50px;
+}
+.spadanudaA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.spadanudaB {
+    width: 200px;
+    height: auto;
+}
+.spadanudaT {
+    margin-top: 50px;
+}
+.stankovicA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.stankovicB {
+    width: 200px;
+    height: auto;
+}
+.stankovicT {
+    margin-top: 50px;
+}
+.rrudhaniA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.rrudhaniB {
+    width: 200px;
+    height: auto;
+}
+.rrudhaniT {
+    margin-top: 50px;
+}
+.kadakA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.kadakB {
+    width: 200px;
+    height: auto;
+}
+.kadakT {
+    margin-top: 50px;
+}
+.belokoA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.belokoB {
+    width: 200px;
+    height: auto;
+}
+.belokoT {
+    margin-top: 50px;
+}
+.dornA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.dornB {
+    width: 200px;
+    height: auto;
+}
+.dornT {
+    margin-top: 50px;
+}
+.owusuA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.owusuB {
+    width: 200px;
+    height: auto;
+}
+.owusuT {
+    margin-top: 50px;
+}
+.winklerA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.winklerB {
+    width: 200px;
+    height: auto;
+}
+.winklerT {
+    margin-top: 50px;
+}
+.chaderA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.chaderB {
+    width: 200px;
+    height: auto;
+}
+.chaderT {
+    margin-top: 50px;
+}
+.grbicA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.grbicB {
+    width: 200px;
+    height: auto;
+}
+.grbicT {
+    margin-top: 50px;
+}
+.karweinaA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.karweinaB {
+    width: 200px;
+    height: auto;
+}
+.karweinaT {
+    margin-top: 50px;
+}
+.klidjeA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.klidjeB {
+    width: 200px;
+    height: auto;
+}
+.klidjeT {
+    margin-top: 50px;
+}
+.villigerA {
+    display: inline-flex;
+    width: 450px;
+}
+
+.villigerB {
+    width: 200px;
+    height: auto;
+}
+.villigerT {
+    margin-top: 50px;
+}
+

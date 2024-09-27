@@ -1,0 +1,321 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+main {
+    text-align: center;
+    background: white;
+    padding: 20px;
+}
+
+.team-photo {
+    width: 85vw;
+    margin: 10px 0 30px;
+    border-radius: 20px;
+}
+.game-sections-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+.game-section {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+
+.game-info-item {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.match-result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid gray;
+    width: 100%;
+}
+
+
+.team-logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.team-logo.large {
+    width: 70px;
+    height: 70px;
+}
+
+
+.score {
+    color: black;
+    margin: 0 15px;
+    font-size: large;
+}
+
+.kickoff-time {
+    color: black;
+    margin: 0 25px;
+    font-size: x-large;
+}
+
+
+.game-date {
+    margin-top: 15px;
+    font-size: medium;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+
+
+.news {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.news-item img {
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.news-title {
+    font-size: 1.5em; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.news-item p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.news1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+.news2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 96px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.news3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.news4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 57px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.news5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.news6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 38px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .news-item {
+        flex: 1 1 100%; ;
+    }
+
+    .news-title {
+        font-size: 1.8em;
+    }
+
+    .news {
+        width: 20%;
+        margin-left: -500px;
+    }
+
+    .news-image-1, .news-image-2, .news-image-3, .news-image-4, .news-image-5, .news-image-6 {
+        width: 100%;
+    }
+
+    .news1, .news2, .news3, .news4, .news5, .news6 {
+        width: 300%;
+        border: 2px solid red
+    }
+
+@media (max-width: 480px) {
+    .news-title {
+        font-size: 1.6em; 
+    }
+
+    .news-item {
+        padding: 15px; 
+    }
+
+    .news-item p {
+        font-size: 0.9em;
+    }
+
+    .news-image-1, .news-image-2, .news-image-3, .news-image-4, .news-image-5, .news-image-6 {
+        width: 90%;
+    }
+
+    .news1, .news2, .news3, .news4, .news5, .news6 {
+        width: 200%;
+        border: 2px solid red;
+        margin-left: 47px;
+}
+
+
+@media (max-width: 654px) {
+    .news-image-1, .news-image-2, .news-image-3, .news-image-4, .news-image-5, .news-image-6 {
+        width: 30%;
+    }
+
+    .news1, .news2, .news3, .news4, .news5, .news6 {
+        width: 200%;
+        border: 2px solid red;
+        margin-left: 47px;
+}
+}
+
+@media (max-width: 900px) {
+
+    .news-image-1, .news-image-2, .news-image-3, .news-image-4, .news-image-5, .news-image-6 {
+        width: 70%;
+    }
+
+    .news1, .news2, .news3, .news4, .news5, .news6 {
+        width: -920%;
+        border: 2px solid red;
+        margin-left: 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .team-photo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .game-section {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .team-logo, .team-logo.large {
+        width: 60px;
+        height: 60px;
+    }
+
+    .kickoff-time {
+        font-size: large;
+        margin: 10px 0;
+    }
+}
